@@ -44,7 +44,7 @@ const Header: React.FC = () => {
             Soluciones
           </Link>
           <Link href="/#agency" className={activeSection === 'agency' ? styles.active : ''}>
-            Agency
+            Agencia
           </Link>
           <Link href="/#testimonials" className={activeSection === 'testimonials' ? styles.active : ''}>
             Testimonios
