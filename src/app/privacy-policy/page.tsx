@@ -22,16 +22,16 @@ export default function PrivacyPolicy() {
       <h2>4. Uso de WhatsApp</h2>
       <ul>
         <li>Utilizaremos WhatsApp para comunicarnos con usted solo si nos ha dado su consentimiento.</li>
-        <li>Puede optar por no recibir mensajes en cualquier momento, respondiendo "BAJA" o contactándonos directamente.</li>
+        <li>Puede optar por no recibir mensajes en cualquier momento, respondiendo &quot;BAJA&quot; o contactándonos directamente.</li>
       </ul>
       <h2>5. Derechos del usuario</h2>
       <ul>
-        <li>Puede acceder, rectificar o eliminar sus datos personales contactándonos a <a href="mailto:suarez880223@gmail.com">suarez880223@gmail.com</a>.</li>
+        <li>Puede acceder, rectificar o eliminar sus datos personales contactándonos a <a href="mailto:contacto@albertyudy.com">contacto@albertyudy.com</a>.</li>
       </ul>
       <h2>6. Cambios en la política</h2>
       <p>Nos reservamos el derecho de modificar esta política. Los cambios serán publicados en esta página.</p>
       <h2>7. Contacto</h2>
-      <p>Si tiene dudas sobre esta política, puede contactarnos en <a href="mailto:suarez880223@gmail.com">suarez880223@gmail.com</a>.</p>
+      <p>Si tiene dudas sobre esta política, puede contactarnos en <a href="mailto:contacto@albertyudy.com">contacto@albertyudy.com</a>.</p>
     </main>
   );
 } 

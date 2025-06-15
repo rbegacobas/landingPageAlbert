@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import styles from '../styles/SimpleSolutions.module.css';
 
 const steps = [
@@ -51,7 +51,7 @@ export default function SimpleSolutions() {
           Solucion <span className={styles.highlight}>Simple!</span>
         </h2>
         <p className={styles.desc}>
-         Creamos soluciones simples y fáciles para que puedas cuidar de los tuyos.
+          Creamos soluciones simples y fáciles para que puedas cuidar de los tuyos.
         </p>
         <ul className={styles.stepsList}>
           {steps.map((step, idx) => (
@@ -84,7 +84,6 @@ export default function SimpleSolutions() {
           >
             Empieza ahora
           </motion.button>
-          
         </div>
       </motion.div>
     </section>
