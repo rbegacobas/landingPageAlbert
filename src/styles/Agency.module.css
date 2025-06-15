@@ -1,0 +1,62 @@
+.agency {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--white);
+  padding: 3rem 4vw;
+  margin: 0;
+  border-radius: 0;
+  gap: 2rem;
+}
+.agencyText {
+  flex: 2;
+}
+.agencyText h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+.highlight {
+  color: var(--primary);
+}
+.agencyText p {
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+.agencyImg {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.agencyImg :global(img) {
+  max-width: 270px;
+  width: 100%;
+  height: auto;
+  border-radius: 1.2rem;
+}
+.secondaryBtn {
+  background: var(--primary-light);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0.7rem 1.2rem;
+  font-size: 0.95rem;
+}
+.secondaryBtn:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+@media (max-width: 900px) {
+  .agency {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+  .agencyImg {
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+} 
+

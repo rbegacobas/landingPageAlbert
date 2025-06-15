@@ -1,0 +1,102 @@
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 6rem 4vw;
+  background: var(--white);
+}
+
+.heroContent {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.heroText {
+  flex: 1;
+}
+
+.headlineGroup {
+  margin-bottom: 1.5rem;
+}
+
+.heroText h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333; /* Mantenemos en gris oscuro para mejor jerarquía */
+  margin-bottom: 0.25rem; /* REDUCIDO: antes era 1rem */
+  line-height: 1.2;
+}
+
+.heroText h1 {
+  font-size: 3.2rem; /* Ligeramente más grande para más impacto */
+  font-weight: 700;
+  color: var(--primary); /* Naranja solo en el h1 principal */
+  margin-bottom: 0; /* ELIMINADO: no necesita margen inferior */
+  line-height: 1.1; /* Más apretado para mayor impacto */
+}
+
+.heroText p {
+  font-size: 1.125rem; /* 18px - más legible */
+  color: #555; /* Gris más suave para mejor contraste */
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  max-width: 480px; /* Reducido para mejor legibilidad */
+  font-weight: 400;
+}
+
+
+.ctaButton {
+  background: var(--primary-light);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background: var(--primary);
+  color: white;
+  border: none;
+}
+
+
+.heroImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .heroText h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroContent {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroText h1 {
+    font-size: 2.5rem;
+  }
+
+  .heroImage {
+    order: -1;
+  }
+}

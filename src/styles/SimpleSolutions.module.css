@@ -1,0 +1,129 @@
+.simpleSolutions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary-light);
+  padding: 3rem 4vw;
+  margin: 0;
+  border-radius: 0;
+  gap: 2rem;
+}
+.solutionsImage {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.solutionsImage img {
+  max-width: 270px;
+  width: 100%;
+  height: auto;
+  border-radius: 1.2rem;
+}
+.solutionsContent {
+  flex: 2;
+}
+.title {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+.highlight {
+  color: var(--primary);
+}
+.desc {
+  margin-bottom: 1.5rem;
+  margin-left: 0;
+  color: #444;
+  font-size: 1.1rem;
+}
+.stepsList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+}
+.stepItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background: var(--primary-light);
+  color: var(--primary);
+  transition: background 0.3s, color 0.3s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.stepText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.stepTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 0.1rem;
+}
+.stepDesc {
+  font-size: 0.98rem;
+  color: #444;
+  font-weight: 400;
+}
+.buttonsGroup {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+.primaryBtn, .secondaryBtn {
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+.primaryBtn:hover {
+  background: var(--primary-light);
+  color: var(--primary);
+}
+.secondaryBtn {
+  background: var(--primary-light);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.secondaryBtn:hover {
+  background: var(--primary);
+  color: var(--white);
+}
+@media (max-width: 900px) {
+  .simpleSolutions {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+  .solutionsImage {
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  .solutionsContent {
+    align-items: center;
+  }
+  .stepItem {
+    justify-content: center;
+  }
+  .stepText {
+    align-items: center;
+  }
+} 
